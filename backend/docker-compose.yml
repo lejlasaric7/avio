@@ -1,0 +1,11 @@
+version: '3'
+services:
+  frontend:
+    build: .
+    stdin_open: true
+    tty: true
+    ports:
+      - "3005:3005"
+    volumes:
+      - "/backend/node_modules"
+      - ".:/backend"
