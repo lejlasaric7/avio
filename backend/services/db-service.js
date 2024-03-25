@@ -11,7 +11,7 @@ function initOracleClient(){
     }
 }
 
-async function connectToDatabase() {
+/*async function connectToDatabase() {
   try {
     await oracledb.createPool({
       user          : process.env.DB_USER,
@@ -38,4 +38,4 @@ async function connectToDatabase() {
 module.exports = {
   initOracleClient,
   connectToDatabase  
-}
+}*/
